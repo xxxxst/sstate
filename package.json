@@ -15,5 +15,12 @@
 	"dependencies": {},
 	"devDependencies": {
 		"typescript": "^3.2.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xxxxst/sstate.git"
+	},
+	"bugs": {
+		"url": "https://github.com/xxxxst/sstate/issues"
 	}
 }
