@@ -1,0 +1,41 @@
+{
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	],
+	"compilerOptions": {
+		"outDir": "./lib",
+		"declaration": true,
+		"declarationDir": "./types",
+		"sourceMap": false,
+		"strict": true,
+		"strictNullChecks": false,
+		// "module": "amd",
+		// "module": "esnext",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		// "target": "es5",
+		"target": "es6",
+		"allowSyntheticDefaultImports": true,
+		"allowUnreachableCode": true,
+		"isolatedModules": false,
+		"experimentalDecorators": true,
+		"strictFunctionTypes": false,
+		"emitDecoratorMetadata": true,
+		"noImplicitAny": false,
+		"noImplicitReturns": true,
+		"importHelpers": true,
+		"listFiles": false,
+		"removeComments": false,
+		"suppressImplicitAnyIndexErrors": true,
+		// "allowJs": true,
+		"baseUrl": "./",
+		"lib": [
+			"dom",
+			"es2015",
+			"es2015.promise"
+		]
+	}
+}

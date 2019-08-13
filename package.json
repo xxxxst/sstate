@@ -1,0 +1,18 @@
+{
+	"name": "@xxxxst/sstate",
+	"version": "0.0.1",
+	"description": "simple state base on typescript",
+	"author": "xxxxst",
+	"main": "lib/index.js",
+	"typings": "types/index.d.ts",
+	"homepage": "https://github.com/xxxxst/sstate",
+	"files": [
+		"src",
+		"lib",
+		"types"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"typescript": "^3.2.2"
+	}
+}
